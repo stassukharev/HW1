@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Module3_;
+using System;
 
 namespace Module3Homework
 {
@@ -6,7 +7,12 @@ namespace Module3Homework
     {
         static void Main(string[] args)
         {
-            
+            Employee emma = new Employee {"Emma", "Watson", 3, 3};
+            emma.getBonusPercent();
+
+        }
+        {
+            Console.WriteLine ("Имя: ")
         }
     }
 }
