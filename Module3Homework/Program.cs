@@ -7,12 +7,10 @@ namespace Module3Homework
     {
         static void Main(string[] args)
         {
-            Employee emma = new Employee {"Emma", "Watson", 3, 3};
-            emma.getBonusPercent();
+            Employee emma = new Employee ("Emma", "Watson", 3, 3);
+            Console.WriteLine ();
 
         }
-        {
-            Console.WriteLine ("Имя: ")
-        }
-    }
+       
+    }e
 }
