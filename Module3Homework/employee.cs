@@ -15,5 +15,14 @@ namespace Module3_
             this.firstName = firstName;
             this.lastName = lastName;
         }
+        int getBonusPercent(int experience, int skillLevel) {
+            
+            if (experience < 1) return "0";
+            if (experience < 5) return "5";
+            if ((experience => 5) && (skillLevel <3)) return "10";
+            if ((experience > 5) && (skillLevel => 3 <= 4) return "15";
+            if ((experience > 5) && (skillLevel = 5)) return "20";
+
+        }
     }
 }
