@@ -15,7 +15,7 @@ namespace Module3_
             this.firstName = firstName;
             this.lastName = lastName;
         }
-        int getBonusPercent() {
+        public int getBonusPercent() {
             
             if (experience < 1) return 0;
             if (experience < 5) return 5;
