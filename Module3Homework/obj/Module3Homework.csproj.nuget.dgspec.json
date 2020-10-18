@@ -1,31 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Stas\\Source\\Repos\\Module3_16_\\Module3Homework\\Module3Homework.csproj": {}
+    "C:\\Users\\Stas\\Source\\Repos\\HW1\\Module3Homework\\Module3Homework.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Stas\\Source\\Repos\\Module3_16_\\Module3Homework\\Module3Homework.csproj": {
+    "C:\\Users\\Stas\\Source\\Repos\\HW1\\Module3Homework\\Module3Homework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Stas\\Source\\Repos\\Module3_16_\\Module3Homework\\Module3Homework.csproj",
+        "projectUniqueName": "C:\\Users\\Stas\\Source\\Repos\\HW1\\Module3Homework\\Module3Homework.csproj",
         "projectName": "Module3Homework",
-        "projectPath": "C:\\Users\\Stas\\Source\\Repos\\Module3_16_\\Module3Homework\\Module3Homework.csproj",
+        "projectPath": "C:\\Users\\Stas\\Source\\Repos\\HW1\\Module3Homework\\Module3Homework.csproj",
         "packagesPath": "C:\\Users\\Stas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Stas\\Source\\Repos\\Module3_16_\\Module3Homework\\obj\\",
+        "outputPath": "C:\\Users\\Stas\\Source\\Repos\\HW1\\Module3Homework\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Stas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net48"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "net48": {
             "projectReferences": {}
           }
         },
@@ -36,23 +36,19 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
+        "net48": {
+          "dependencies": {
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
         }
       }
     }

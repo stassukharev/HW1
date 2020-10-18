@@ -19,7 +19,7 @@ namespace Module3_
         }
         public int getBonusPercent() {
             
-            if (experience < 1) return 0;
+            if (experience <= 1) return 0;
             if ((experience < 5) && (experience > 1)) return 5;
             if ((experience >= 5) && (skillLevel < 3)) return 10;
             if ((experience > 5) && (skillLevel >= 3) && (skillLevel <= 4)) return 15;

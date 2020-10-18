@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "6T1FkQug3iwx6mtp+kg5dB5JQNXlTXSi2NmVXGRM5B00rlNDThFXOLsuIpjsTPnyd9vlW5meMpi4bf/ldtVp9Q==",
+  "dgSpecHash": "FTQAsvmlzLphbfVc7fIJjXO8dwUIfA6YBOEoMZq1RiG7Xzn3FC3xVscUEYLqO+kwvdrS0/9unJvKChQImKfC6Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Stas\\Source\\Repos\\Module3_16_\\Module3Homework\\Module3Homework.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Stas\\Source\\Repos\\HW1\\Module3Homework\\Module3Homework.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Stas\\.nuget\\packages\\nunit\\3.12.0\\nunit.3.12.0.nupkg.sha512"
+  ],
   "logs": []
 }
