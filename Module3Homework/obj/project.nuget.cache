@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "FTQAsvmlzLphbfVc7fIJjXO8dwUIfA6YBOEoMZq1RiG7Xzn3FC3xVscUEYLqO+kwvdrS0/9unJvKChQImKfC6Q==",
+  "dgSpecHash": "fSCZ6o8wN2ZW2iLe1e+Kpj+CdLke1RViPJ/+LPSo1xXzhQVsrlBrkFwGtphuzL8vdis1fJrSt29PFzt6It9HXg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Stas\\Source\\Repos\\HW1\\Module3Homework\\Module3Homework.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Stas\\.nuget\\packages\\nunit\\3.12.0\\nunit.3.12.0.nupkg.sha512"
+    "C:\\Users\\Stas\\.nuget\\packages\\nunit\\3.12.0\\nunit.3.12.0.nupkg.sha512",
+    "C:\\Users\\Stas\\.nuget\\packages\\nunit3testadapter\\3.17.0\\nunit3testadapter.3.17.0.nupkg.sha512"
   ],
   "logs": []
 }

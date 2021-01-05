@@ -13,6 +13,12 @@
         "build": {
           "build/NUnit.props": {}
         }
+      },
+      "NUnit3TestAdapter/3.17.0": {
+        "type": "package",
+        "build": {
+          "build/net35/NUnit3TestAdapter.props": {}
+        }
       }
     },
     ".NETFramework,Version=v4.8/win7-x86": {
@@ -26,6 +32,12 @@
         },
         "build": {
           "build/NUnit.props": {}
+        }
+      },
+      "NUnit3TestAdapter/3.17.0": {
+        "type": "package",
+        "build": {
+          "build/net35/NUnit3TestAdapter.props": {}
         }
       }
     }
@@ -60,11 +72,36 @@
         "nunit.3.12.0.nupkg.sha512",
         "nunit.nuspec"
       ]
+    },
+    "NUnit3TestAdapter/3.17.0": {
+      "sha512": "I9MNvK+GM2yXrHPitwZkAZKU9sYI2OO/8wKC+VuBD7V3z+ySQ1pSopX/urr0ooedI8/TIcajYPRO4vGRr7AM8A==",
+      "type": "package",
+      "path": "nunit3testadapter/3.17.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "build/net35/NUnit3.TestAdapter.dll",
+        "build/net35/NUnit3.TestAdapter.pdb",
+        "build/net35/NUnit3TestAdapter.props",
+        "build/net35/nunit.engine.api.dll",
+        "build/net35/nunit.engine.core.dll",
+        "build/net35/nunit.engine.dll",
+        "build/netcoreapp2.1/NUnit3.TestAdapter.dll",
+        "build/netcoreapp2.1/NUnit3.TestAdapter.pdb",
+        "build/netcoreapp2.1/NUnit3TestAdapter.props",
+        "build/netcoreapp2.1/nunit.engine.api.dll",
+        "build/netcoreapp2.1/nunit.engine.core.dll",
+        "build/netcoreapp2.1/nunit.engine.dll",
+        "nunit3testadapter.3.17.0.nupkg.sha512",
+        "nunit3testadapter.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.8": [
-      "NUnit >= 3.12.0"
+      "NUnit >= 3.12.0",
+      "NUnit3TestAdapter >= 3.17.0"
     ]
   },
   "packageFolders": {
@@ -107,6 +144,10 @@
           "NUnit": {
             "target": "Package",
             "version": "[3.12.0, )"
+          },
+          "NUnit3TestAdapter": {
+            "target": "Package",
+            "version": "[3.17.0, )"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
